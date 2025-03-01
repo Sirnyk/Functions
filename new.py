@@ -30,7 +30,7 @@ def max_in_list(data):
     return a
 
 
-def count_iven_numbers(data):
+def count_even_numbers(data):
     a = 0
     for i in range(len(data)):
         if data[i] % 2 == 0:
